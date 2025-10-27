@@ -1,0 +1,11 @@
+# robots.txt для сайту "Ліси України"
+# Дозволяє пошуковим системам індексувати весь сайт,
+# окрім службових розділів, таких як /admin/ та /temp/.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Дозволяємо все інше
+Allow: /
